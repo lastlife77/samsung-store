@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/samsung-store/static/css/main.1a027bd6.css",
-    "main.js": "/samsung-store/static/js/main.92320290.js",
+    "main.js": "/samsung-store/static/js/main.f1fa5204.js",
     "static/media/Montserrat-SemiBold.ttf": "/samsung-store/static/media/Montserrat-SemiBold.d5e0cc788cba9ced1fb9.ttf",
     "static/media/Montserrat-Regular.ttf": "/samsung-store/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
     "index.html": "/samsung-store/index.html",
     "main.1a027bd6.css.map": "/samsung-store/static/css/main.1a027bd6.css.map",
-    "main.92320290.js.map": "/samsung-store/static/js/main.92320290.js.map"
+    "main.f1fa5204.js.map": "/samsung-store/static/js/main.f1fa5204.js.map"
   },
   "entrypoints": [
     "static/css/main.1a027bd6.css",
-    "static/js/main.92320290.js"
+    "static/js/main.f1fa5204.js"
   ]
 }

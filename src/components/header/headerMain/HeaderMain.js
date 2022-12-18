@@ -10,7 +10,7 @@ function HeaderMain(){
             <div className='largeView'>
                 <div className='leftItems'>
                     <div className='logo'>
-                        <img src="../icons/logo.svg"></img>
+                        <img src="./icons/logo.svg"></img>
                     </div>
                     <div className='leftItem'>
                         <p>Смартфоны</p>
@@ -36,7 +36,7 @@ function HeaderMain(){
                 </div>
                 <div className='rightItems'>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/search.svg"></img>
+                        <img className='rightItemImg' src="./icons/search.svg"></img>
                         <img className='rightItemImgHover' src="/icons/searchHover.svg"></img>
                     </div>
                     <div className='rightItem'>

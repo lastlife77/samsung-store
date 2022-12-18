@@ -10,7 +10,7 @@ function HeaderMain(){
             <div className='largeView'>
                 <div className='leftItems'>
                     <div className='logo'>
-                        <img src="/icons/logo.svg"></img>
+                        <img src="./icons/logo.svg"></img>
                     </div>
                     <div className='leftItem'>
                         <p>Смартфоны</p>
@@ -36,54 +36,54 @@ function HeaderMain(){
                 </div>
                 <div className='rightItems'>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/search.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/searchHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/search.svg"></img>
+                        <img className='rightItemImgHover' src="./icons/searchHover.svg"></img>
                     </div>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/compare.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/compareHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/compare.svg"></img>
+                        <img className='rightItemImgHover' src="./icons/compareHover.svg"></img>
                     </div>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/cart.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/cartHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/cart.svg"></img>
+                        <img className='rightItemImgHover' src="/.icons/cartHover.svg"></img>
                     </div>
                 </div>
             </div>
             <div className='smallView'>
                 <div  className='menu'>
-                    <img onClick={()=>setShowMenu(true)} src='/icons/menu.svg'></img>
+                    <img onClick={()=>setShowMenu(true)} src='./icons/menu.svg'></img>
                     {showMenu?
                         <div className='menuItems'>
                             <div onClick={()=>setShowMenu(false)} className='close'>
-                                <img src="/icons/close.svg"></img>
+                                <img src="./icons/close.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Смартфоны</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Планшеты</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Носимые устройства</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>ТВ и аудио</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Бытовая техника</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Для ПК</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                             <div className='menuItem'>
                                 <p>Аксессуары</p>
-                                <img src="/icons/arrow_forward.svg"></img>
+                                <img src="./icons/arrow_forward.svg"></img>
                             </div>
                         </div>:
                         <div></div>

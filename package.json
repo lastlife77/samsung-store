@@ -2,7 +2,7 @@
   "name": "samsung-store",
   "version": "0.1.0",
   "private": true,
-  "homepage": "thttps://lastlife77.github.io./samsung-store",
+  "homepage": "https://lastlife77.github.io./samsung-store",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

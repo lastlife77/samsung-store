@@ -10,7 +10,7 @@ function Footer(props){
             <div className='blocks'>
                 <div className='leftBlock'>
                     <div className='logo'>
-                        <img src="icons/logo.svg"></img>
+                        <img src="./icons/logo.svg"></img>
                     </div>
                     <div className='leftItem'>
                         <p>Смартфоны</p>

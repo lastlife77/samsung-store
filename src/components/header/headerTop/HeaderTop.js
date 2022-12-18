@@ -7,7 +7,7 @@ function HeaderTop(){
         <div className="headerTop">
             <div className="leftItems">
                 <div className="location">
-                    <img src='/icons/location.svg'></img>
+                    <img src='./icons/location.svg'></img>
                     <p>Набережные Челны</p>
                 </div>
                 <div className="leftItem">
@@ -32,7 +32,7 @@ function HeaderTop(){
                     <p className='phone'>8 800 755-7525</p>
                 </div>
                 <div className='account'>
-                    <img src='/icons/person.svg'></img>
+                    <img src='./icons/person.svg'></img>
                     <p>Войти</p>
                 </div>
             </div>

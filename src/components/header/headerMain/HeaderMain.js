@@ -40,7 +40,7 @@ function HeaderMain(){
                         <img className='rightItemImgHover' src="/icons/searchHover.svg"></img>
                     </div>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/compare.svg"></img>
+                        <img className='rightItemImg' src="public/icons/compare.svg"></img>
                         <img className='rightItemImgHover' src="/icons/compareHover.svg"></img>
                     </div>
                     <div className='rightItem'>

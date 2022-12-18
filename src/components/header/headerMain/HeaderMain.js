@@ -10,7 +10,7 @@ function HeaderMain(){
             <div className='largeView'>
                 <div className='leftItems'>
                     <div className='logo'>
-                        <img src="public/icons/logo.svg"></img>
+                        <img src="./images/logo.svg"></img>
                     </div>
                     <div className='leftItem'>
                         <p>Смартфоны</p>
@@ -51,7 +51,7 @@ function HeaderMain(){
             </div>
             <div className='smallView'>
                 <div  className='menu'>
-                    <img onClick={()=>setShowMenu(true)} src='/icons/menu.svg'></img>
+                    <img onClick={()=>setShowMenu(true)} src='/images/menu.svg'></img>
                     {showMenu?
                         <div className='menuItems'>
                             <div onClick={()=>setShowMenu(false)} className='close'>

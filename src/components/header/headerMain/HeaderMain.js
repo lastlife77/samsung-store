@@ -92,20 +92,20 @@ function HeaderMain(){
                     
                 </div>
                 <div className='logo'>
-                    <img src="/icons/logo.svg"></img>
+                    <img src="./icons/logo.svg"></img>
                 </div>
                 <div className='rightItems'>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/search.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/searchHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/search.svg"></img>
+                        <img className='rightItemImgHover' src="./icons/searchHover.svg"></img>
                     </div>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/compare.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/compareHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/compare.svg"></img>
+                        <img className='rightItemImgHover' src="./icons/compareHover.svg"></img>
                     </div>
                     <div className='rightItem'>
-                        <img className='rightItemImg' src="/icons/cart.svg"></img>
-                        <img className='rightItemImgHover' src="/icons/cartHover.svg"></img>
+                        <img className='rightItemImg' src="./icons/cart.svg"></img>
+                        <img className='rightItemImgHover' src="./icons/cartHover.svg"></img>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import styles from './PhoneCard.scss'
-import Button from './../UI/Button';
+import Button from '../UI/buttons/Button';
+import CompareIcon from '../UI/icons/CompareIcon';
+import FavoriteIcon from '../UI/icons/FavoriteIcon';
+import ColorButton from '../UI/buttons/ColorButton';
 
 function PhoneCard(props){
 
@@ -10,14 +13,8 @@ function PhoneCard(props){
     return(
         <div className='phoneCard'>
             <div className='favoriteAndCompare'>
-                <div className='compare'>
-                    <img className='compareImg' src="./icons/compare.svg"></img>
-                    <img className='compareImgHover' src="./icons/compareFill.svg"></img>
-                </div>
-                <div className='favorite'>
-                    <img className='favoriteImg' src="./icons/favorite.svg"></img>
-                    <img className='favoriteImgHover' src="./icons/favoriteFill.svg"></img>
-                </div>
+                <CompareIcon></CompareIcon>
+                <FavoriteIcon></FavoriteIcon>
             </div>
             <div className='phoneImage'>
                 {phoneColor=="white"?<img src="./icons/phones/whitePhone.svg"></img>:<div style={{display:"none"}}></div>}
@@ -26,10 +23,10 @@ function PhoneCard(props){
                 {phoneColor=="black"?<img src="./icons/phones/blackPhone.svg"></img>:<div style={{display:"none"}}></div>}
             </div>
             <div className='colors'>
-                <button onClick={()=>{setPhoneColor("white")}} className={(phoneColor=="white")?'btnColorActive btnColorWhite':'btnColor btnColorWhite'}></button>
-                <button onClick={()=>{setPhoneColor("orange")}} className={(phoneColor=="orange")?'btnColorActive btnColorOrange':'btnColor btnColorOrange'}></button>
-                <button onClick={()=>{setPhoneColor("blue")}} className={(phoneColor=="blue")?'btnColorActive btnColorBlue':'btnColor btnColorBlue'}></button>
-                <button onClick={()=>{setPhoneColor("black")}} className={(phoneColor=="black")?'btnColorActive btnColorBlack':'btnColor btnColorBlack'}></button>
+                <ColorButton onClick={()=>{setPhoneColor("white")}} isActive={(phoneColor=="white")?true:false} color="#FFFFFF"></ColorButton>
+                <ColorButton onClick={()=>{setPhoneColor("orange")}} isActive={(phoneColor=="orange")?true:false} color="#F7D5B8"></ColorButton>
+                <ColorButton onClick={()=>{setPhoneColor("blue")}} isActive={(phoneColor=="blue")?true:false} color="#D7E9F8"></ColorButton>
+                <ColorButton onClick={()=>{setPhoneColor("black")}} isActive={(phoneColor=="black")?true:false} color="#2A2A2A"></ColorButton>
             </div>
             <div className='storage'>
                 <button onClick={()=>{setPhoneStorage("64")}} className={(phoneStorage=="64")?'btnStorageActive':'btnStorage'}>64 Гб</button>

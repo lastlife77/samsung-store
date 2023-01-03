@@ -1,0 +1,21 @@
+.compare{
+    .compareImg{
+        display: block;
+        height: 30px;
+        margin: 5px;
+    }
+    .compareImgHover{
+        display: none;
+    }
+    
+}
+.compare:hover{
+    .compareImg{
+        display: none;
+    }
+    .compareImgHover{
+        display: block;
+        height: 30px;
+        margin: 5px;
+    }
+}

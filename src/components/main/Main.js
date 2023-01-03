@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styles from './Main.scss'
 import PhoneCard from './../phoneCard/PhoneCard';
-import Button from './../UI/Button';
+import Button from './../UI/buttons/Button';
 
 function Main(props){
 

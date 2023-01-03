@@ -1,0 +1,20 @@
+.favorite{
+    .favoriteImg{
+        display: block;
+        height: 30px;
+        margin: 5px;
+    }
+    .favoriteImgHover{
+        display: none;
+    }
+}
+.favorite:hover{
+    .favoriteImg{
+        display: none;
+    }
+    .favoriteImgHover{
+        display: block;
+        height: 30px;
+        margin: 5px;
+    }
+}

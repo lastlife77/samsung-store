@@ -1,0 +1,22 @@
+.btnColor{
+    
+    .default{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border:solid #E1E1E1 1px;
+    }
+    .default:hover{
+        outline:solid #0094DA 1px;
+    }
+    .active{
+        margin: 10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        border:solid #E1E1E1 1px;
+        outline:solid #000000 1px;
+    }
+   
+}

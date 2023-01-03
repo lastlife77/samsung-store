@@ -42,3 +42,14 @@
     }
 }
 
+
+@media (max-width:600px){
+    .main{
+        margin-left:0;
+        .cards{
+            justify-content: center;
+            margin-left: 0;
+            margin-right: 0;
+        }
+    }
+}

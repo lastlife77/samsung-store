@@ -16,47 +16,6 @@
         margin-top: 15px;
         margin: 10px;
         margin-bottom: 60px;
-        .compare{
-            .compareImg{
-                display: block;
-                height: 30px;
-                margin: 5px;
-            }
-            .compareImgHover{
-                display: none;
-            }
-            
-        }
-        .compare:hover{
-            .compareImg{
-                display: none;
-            }
-            .compareImgHover{
-                display: block;
-                height: 30px;
-                margin: 5px;
-            }
-        }
-        .favorite{
-            .favoriteImg{
-                display: block;
-                height: 30px;
-                margin: 5px;
-            }
-            .favoriteImgHover{
-                display: none;
-            }
-        }
-        .favorite:hover{
-            .favoriteImg{
-                display: none;
-            }
-            .favoriteImgHover{
-                display: block;
-                height: 30px;
-                margin: 5px;
-            }
-        }
     }
     .phoneImage{
         align-self: center;
@@ -68,37 +27,6 @@
         align-self: center;
         justify-content: center;
         margin: 5px;
-        .btnColor{
-            margin: 10px;
-            width: 20px;
-            height: 20px;
-            border-radius: 20px;
-            border:solid #E1E1E1 1px;
-        }
-        .btnColor:hover{
-            outline:solid #0094DA 1px;
-        }
-        .btnColorActive{
-            margin: 10px;
-            width: 20px;
-            height: 20px;
-            border-radius: 20px;
-            border:solid #E1E1E1 1px;
-            outline:solid #000000 1px;
-        }
-        .btnColorWhite{
-            background-color: rgb(255, 255, 255);
-        }
-        .btnColorOrange{
-            background-color: #F7D5B8;
-        }
-        .btnColorBlue{
-            background-color: #D7E9F8;
-        }
-        .btnColorBlack{
-            background-color: #2A2A2A;
-        }
-        
     }
     .storage{
         margin: 5px;

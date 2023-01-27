@@ -1,0 +1,30 @@
+.storage{
+    .active{
+        font-family:'Montserrat-SemiBold', sans-serif;
+        margin: 5px;
+        width: 72px;
+        height: 32px;
+        color:white;
+        font-size: 17px;
+        border-radius: 6px;
+        border: solid black 1px;
+        background-color: black;
+        cursor: pointer;
+    }
+    .default{
+        font-family:'Montserrat-SemiBold', sans-serif;
+        margin: 5px;
+        width: 72px;
+        height: 32px;
+        color:rgb(0, 0, 0);
+        font-size: 17px;
+        border-radius: 6px;
+        border: solid black 1px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+
+    }
+    .default:hover{
+        border: solid #0094DA 1px;
+    }
+}

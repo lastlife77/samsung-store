@@ -20,6 +20,9 @@
     .phoneImage{
         align-self: center;
         margin: 5px;
+        img{
+            cursor: pointer;
+        }
     }
     .colors{
         display: flex;
@@ -29,50 +32,15 @@
         margin: 5px;
     }
     .storage{
-        margin: 5px;
-        .btnStorageActive{
-            font-family:'Montserrat-SemiBold', sans-serif;
-            margin: 5px;
-            width: 72px;
-            height: 32px;
-            color:white;
-            font-size: 17px;
-            border-radius: 6px;
-            border: solid black 1px;
-            background-color: black;
-        }
-        .btnStorage{
-            font-family:'Montserrat-SemiBold', sans-serif;
-            margin: 5px;
-            width: 72px;
-            height: 32px;
-            color:rgb(0, 0, 0);
-            font-size: 17px;
-            border-radius: 6px;
-            border: solid black 1px;
-            background-color: rgb(255, 255, 255);
-        }
-        .btnStorage:hover{
-            border: solid #0094DA 1px;
-        }
+        display: flex;
     }
     .phoneName{
+        cursor: pointer;
         p{
             font-size: 20px;
             text-align: center;
             margin: 0;
             padding: 0;
-        }
-    }
-    .grade{
-        padding: 0;
-        display: flex;
-        flex-direction: row;
-        .star{
-            margin: 2px;
-        }
-        p{
-            font-size: 16px;
         }
     }
     .price{

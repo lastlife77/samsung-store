@@ -4,6 +4,8 @@ import Button from '../UI/buttons/Button';
 import CompareIcon from '../UI/icons/CompareIcon';
 import FavoriteIcon from '../UI/icons/FavoriteIcon';
 import ColorButton from '../UI/buttons/ColorButton';
+import PhoneStars from '../UI/PhoneStars';
+import StorageButton from '../UI/buttons/StorageButton';
 
 function PhoneCard(props){
 
@@ -29,20 +31,14 @@ function PhoneCard(props){
                 <ColorButton onClick={()=>{setPhoneColor("black")}} isActive={(phoneColor=="black")?true:false} color="#2A2A2A"></ColorButton>
             </div>
             <div className='storage'>
-                <button onClick={()=>{setPhoneStorage("64")}} className={(phoneStorage=="64")?'btnStorageActive':'btnStorage'}>64 Гб</button>
-                <button onClick={()=>{setPhoneStorage("128")}} className={(phoneStorage=="128")?'btnStorageActive':'btnStorage'}>128 Гб</button>
+                <StorageButton onClick={()=>{setPhoneStorage("64")}} storageSize={64} isActive={(phoneStorage=="64")?true:false}></StorageButton>
+                <StorageButton  onClick={()=>{setPhoneStorage("128")}} storageSize={128} isActive={(phoneStorage=="128")?true:false}></StorageButton>
             </div>
+           
             <div className='phoneName'>
                 <p>Смартфоны Samsung <br/>Galaxy A53 - 128Гб, <br/> белый</p>
             </div>
-            <div className='grade'>
-                <img className='star' src="./icons/star.svg"></img>
-                <img className='star' src="./icons/star.svg"></img>
-                <img className='star' src="./icons/star.svg"></img>
-                <img className='star' src="./icons/halfStar.svg"></img>
-                <img className='star' src="./icons/noStar.svg"></img>
-                <p>(119)</p>
-            </div>
+            <PhoneStars numberOfStars={1.09} numberOfRatings={119}></PhoneStars>
             <div className='price'>
                 <p className='oldPrice'>{(phoneStorage=="64")?'25 990':'37 990'} ₽</p>
                 <p className='newPrice'>{(phoneStorage=="64")?'24 990':'34 990'} ₽</p>

@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family:'Montserrat-SemiBold', sans-serif;
+    margin: 50px;
+    .phone{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        .rightPanel{
+            width: 60%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            .phoneImage{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                img{
+                    height: 400px;
+                }
+            }
+        }
+        .leftPanel{
+            margin-right: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            height: 800px;
+            .phoneTitle{
+                cursor: pointer;
+                .phoneName{
+                    font-size: 39px;
+                    margin: 15px;
+                    padding: 0;
+                }
+                .underName{
+                    font-size: 22px;
+                    margin: 15px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

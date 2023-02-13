@@ -19,7 +19,6 @@ function Main(props){
             </div>
             <div className='cards'>
                 {phoneBlock}   
-                {} 
             </div>
             <div className='loadMore'>
                     <Button defaultButtonText="ПОКАЗАТЬ ЕЩЁ" clickedButtonText="ЗАГРУЗКА..."></Button>
